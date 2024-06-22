@@ -84,7 +84,7 @@ export default {
     },
 
     downloadCV() {
-      const cvUrl = 'Alvin.pdf'; // Gantilah dengan path ke CV Anda
+      const cvUrl = 'Resume.pdf'; // Gantilah dengan path ke CV Anda
       const link = document.createElement('a');
       link.href = cvUrl;
       link.download = 'Alvin_Rahmat_Maulana_CV.pdf';
